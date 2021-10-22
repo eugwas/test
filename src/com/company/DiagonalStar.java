@@ -3,7 +3,7 @@ package com.company;
 public class DiagonalStar {
     public static void printSquareStar(int number) {
         if (number < 5) {
-            System.out.println("Invalid ValueM");
+            System.out.println("Invalid ValueM");                
         } else {
             printFirstOrLastRow(number);
             printMiddleRows(number);
